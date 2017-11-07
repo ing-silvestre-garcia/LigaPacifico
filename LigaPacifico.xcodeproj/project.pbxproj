@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314F6CE1A07A423E70B326E4 /* libPods-LigaPacifico.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F752E247EDFFC8F2E1D4E6D1 /* libPods-LigaPacifico.a */; };
+		A13086431FB010C0009D228E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13086421FB010C0009D228E /* AppDelegate.m */; };
+		A130864C1FB010C0009D228E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130864A1FB010C0009D228E /* Main.storyboard */; };
+		A130864E1FB010C0009D228E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A130864D1FB010C0009D228E /* Assets.xcassets */; };
+		A13086511FB010C0009D228E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130864F1FB010C0009D228E /* LaunchScreen.storyboard */; };
+		A13086541FB010C0009D228E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13086531FB010C0009D228E /* main.m */; };
+		A130865E1FB010C0009D228E /* LigaPacificoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A130865D1FB010C0009D228E /* LigaPacificoTests.m */; };
+		A13086691FB010C0009D228E /* LigaPacificoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13086681FB010C0009D228E /* LigaPacificoUITests.m */; };
+		A130867C1FB01AC6009D228E /* PartidoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A130867A1FB01AC6009D228E /* PartidoViewCell.m */; };
+		A130867D1FB01AC6009D228E /* PartidoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A130867B1FB01AC6009D228E /* PartidoViewCell.xib */; };
+		A13086801FB01AD5009D228E /* PartidosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A130867F1FB01AD5009D228E /* PartidosViewController.m */; };
+		A13086841FB02F2B009D228E /* DetallePartidoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A13086831FB02F2B009D228E /* DetallePartidoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A130865A1FB010C0009D228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13086361FB010C0009D228E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A130863D1FB010C0009D228E;
+			remoteInfo = LigaPacifico;
+		};
+		A13086651FB010C0009D228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13086361FB010C0009D228E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A130863D1FB010C0009D228E;
+			remoteInfo = LigaPacifico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368FE4AA9DC67F32FD3360ED /* Pods-LigaPacifico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigaPacifico.release.xcconfig"; path = "Pods/Target Support Files/Pods-LigaPacifico/Pods-LigaPacifico.release.xcconfig"; sourceTree = "<group>"; };
+		A130863E1FB010C0009D228E /* LigaPacifico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LigaPacifico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13086411FB010C0009D228E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13086421FB010C0009D228E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A130864B1FB010C0009D228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A130864D1FB010C0009D228E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13086501FB010C0009D228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13086521FB010C0009D228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13086531FB010C0009D228E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13086591FB010C0009D228E /* LigaPacificoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigaPacificoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A130865D1FB010C0009D228E /* LigaPacificoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LigaPacificoTests.m; sourceTree = "<group>"; };
+		A130865F1FB010C0009D228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13086641FB010C0009D228E /* LigaPacificoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigaPacificoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13086681FB010C0009D228E /* LigaPacificoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LigaPacificoUITests.m; sourceTree = "<group>"; };
+		A130866A1FB010C0009D228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13086791FB01AC6009D228E /* PartidoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartidoViewCell.h; sourceTree = "<group>"; };
+		A130867A1FB01AC6009D228E /* PartidoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartidoViewCell.m; sourceTree = "<group>"; };
+		A130867B1FB01AC6009D228E /* PartidoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PartidoViewCell.xib; sourceTree = "<group>"; };
+		A130867E1FB01AD5009D228E /* PartidosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartidosViewController.h; sourceTree = "<group>"; };
+		A130867F1FB01AD5009D228E /* PartidosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartidosViewController.m; sourceTree = "<group>"; };
+		A13086821FB02F2B009D228E /* DetallePartidoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetallePartidoModel.h; sourceTree = "<group>"; };
+		A13086831FB02F2B009D228E /* DetallePartidoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetallePartidoModel.m; sourceTree = "<group>"; };
+		BDE6A912B15736593E87253F /* Pods-LigaPacifico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LigaPacifico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LigaPacifico/Pods-LigaPacifico.debug.xcconfig"; sourceTree = "<group>"; };
+		F752E247EDFFC8F2E1D4E6D1 /* libPods-LigaPacifico.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LigaPacifico.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A130863B1FB010C0009D228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314F6CE1A07A423E70B326E4 /* libPods-LigaPacifico.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13086561FB010C0009D228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13086611FB010C0009D228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E9C30574C38A9EBFF24822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F752E247EDFFC8F2E1D4E6D1 /* libPods-LigaPacifico.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A13086351FB010C0009D228E = {
+			isa = PBXGroup;
+			children = (
+				A13086401FB010C0009D228E /* LigaPacifico */,
+				A130865C1FB010C0009D228E /* LigaPacificoTests */,
+				A13086671FB010C0009D228E /* LigaPacificoUITests */,
+				A130863F1FB010C0009D228E /* Products */,
+				FB962D924DC2B3837A03C6EF /* Pods */,
+				33E9C30574C38A9EBFF24822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A130863F1FB010C0009D228E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A130863E1FB010C0009D228E /* LigaPacifico.app */,
+				A13086591FB010C0009D228E /* LigaPacificoTests.xctest */,
+				A13086641FB010C0009D228E /* LigaPacificoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13086401FB010C0009D228E /* LigaPacifico */ = {
+			isa = PBXGroup;
+			children = (
+				A13086761FB01A93009D228E /* ViewControllers */,
+				A13086411FB010C0009D228E /* AppDelegate.h */,
+				A13086421FB010C0009D228E /* AppDelegate.m */,
+				A130864A1FB010C0009D228E /* Main.storyboard */,
+				A130864D1FB010C0009D228E /* Assets.xcassets */,
+				A130864F1FB010C0009D228E /* LaunchScreen.storyboard */,
+				A13086521FB010C0009D228E /* Info.plist */,
+				A13086531FB010C0009D228E /* main.m */,
+			);
+			path = LigaPacifico;
+			sourceTree = "<group>";
+		};
+		A130865C1FB010C0009D228E /* LigaPacificoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A130865D1FB010C0009D228E /* LigaPacificoTests.m */,
+				A130865F1FB010C0009D228E /* Info.plist */,
+			);
+			path = LigaPacificoTests;
+			sourceTree = "<group>";
+		};
+		A13086671FB010C0009D228E /* LigaPacificoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13086681FB010C0009D228E /* LigaPacificoUITests.m */,
+				A130866A1FB010C0009D228E /* Info.plist */,
+			);
+			path = LigaPacificoUITests;
+			sourceTree = "<group>";
+		};
+		A13086761FB01A93009D228E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A13086811FB01AD8009D228E /* Modelos */,
+				A13086771FB01AAD009D228E /* Partidos */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A13086771FB01AAD009D228E /* Partidos */ = {
+			isa = PBXGroup;
+			children = (
+				A13086781FB01AB4009D228E /* Celda */,
+				A130867E1FB01AD5009D228E /* PartidosViewController.h */,
+				A130867F1FB01AD5009D228E /* PartidosViewController.m */,
+			);
+			path = Partidos;
+			sourceTree = "<group>";
+		};
+		A13086781FB01AB4009D228E /* Celda */ = {
+			isa = PBXGroup;
+			children = (
+				A13086791FB01AC6009D228E /* PartidoViewCell.h */,
+				A130867A1FB01AC6009D228E /* PartidoViewCell.m */,
+				A130867B1FB01AC6009D228E /* PartidoViewCell.xib */,
+			);
+			path = Celda;
+			sourceTree = "<group>";
+		};
+		A13086811FB01AD8009D228E /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				A13086821FB02F2B009D228E /* DetallePartidoModel.h */,
+				A13086831FB02F2B009D228E /* DetallePartidoModel.m */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		FB962D924DC2B3837A03C6EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6A912B15736593E87253F /* Pods-LigaPacifico.debug.xcconfig */,
+				368FE4AA9DC67F32FD3360ED /* Pods-LigaPacifico.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A130863D1FB010C0009D228E /* LigaPacifico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A130866D1FB010C0009D228E /* Build configuration list for PBXNativeTarget "LigaPacifico" */;
+			buildPhases = (
+				42E5A8C6A9F8DA4F62D24A42 /* [CP] Check Pods Manifest.lock */,
+				A130863A1FB010C0009D228E /* Sources */,
+				A130863B1FB010C0009D228E /* Frameworks */,
+				A130863C1FB010C0009D228E /* Resources */,
+				633B4A5306EE11498AFFAF2D /* [CP] Embed Pods Frameworks */,
+				8E90AE9D2991116A04B53C51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LigaPacifico;
+			productName = LigaPacifico;
+			productReference = A130863E1FB010C0009D228E /* LigaPacifico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13086581FB010C0009D228E /* LigaPacificoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13086701FB010C0009D228E /* Build configuration list for PBXNativeTarget "LigaPacificoTests" */;
+			buildPhases = (
+				A13086551FB010C0009D228E /* Sources */,
+				A13086561FB010C0009D228E /* Frameworks */,
+				A13086571FB010C0009D228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A130865B1FB010C0009D228E /* PBXTargetDependency */,
+			);
+			name = LigaPacificoTests;
+			productName = LigaPacificoTests;
+			productReference = A13086591FB010C0009D228E /* LigaPacificoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13086631FB010C0009D228E /* LigaPacificoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13086731FB010C0009D228E /* Build configuration list for PBXNativeTarget "LigaPacificoUITests" */;
+			buildPhases = (
+				A13086601FB010C0009D228E /* Sources */,
+				A13086611FB010C0009D228E /* Frameworks */,
+				A13086621FB010C0009D228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13086661FB010C0009D228E /* PBXTargetDependency */,
+			);
+			name = LigaPacificoUITests;
+			productName = LigaPacificoUITests;
+			productReference = A13086641FB010C0009D228E /* LigaPacificoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13086361FB010C0009D228E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = UAG;
+				TargetAttributes = {
+					A130863D1FB010C0009D228E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A13086581FB010C0009D228E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A130863D1FB010C0009D228E;
+					};
+					A13086631FB010C0009D228E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A130863D1FB010C0009D228E;
+					};
+				};
+			};
+			buildConfigurationList = A13086391FB010C0009D228E /* Build configuration list for PBXProject "LigaPacifico" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13086351FB010C0009D228E;
+			productRefGroup = A130863F1FB010C0009D228E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A130863D1FB010C0009D228E /* LigaPacifico */,
+				A13086581FB010C0009D228E /* LigaPacificoTests */,
+				A13086631FB010C0009D228E /* LigaPacificoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A130863C1FB010C0009D228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13086511FB010C0009D228E /* LaunchScreen.storyboard in Resources */,
+				A130864E1FB010C0009D228E /* Assets.xcassets in Resources */,
+				A130867D1FB01AC6009D228E /* PartidoViewCell.xib in Resources */,
+				A130864C1FB010C0009D228E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13086571FB010C0009D228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13086621FB010C0009D228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E5A8C6A9F8DA4F62D24A42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LigaPacifico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633B4A5306EE11498AFFAF2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LigaPacifico/Pods-LigaPacifico-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E90AE9D2991116A04B53C51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LigaPacifico/Pods-LigaPacifico-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A130863A1FB010C0009D228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13086431FB010C0009D228E /* AppDelegate.m in Sources */,
+				A130867C1FB01AC6009D228E /* PartidoViewCell.m in Sources */,
+				A13086841FB02F2B009D228E /* DetallePartidoModel.m in Sources */,
+				A13086801FB01AD5009D228E /* PartidosViewController.m in Sources */,
+				A13086541FB010C0009D228E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13086551FB010C0009D228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A130865E1FB010C0009D228E /* LigaPacificoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13086601FB010C0009D228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13086691FB010C0009D228E /* LigaPacificoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A130865B1FB010C0009D228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A130863D1FB010C0009D228E /* LigaPacifico */;
+			targetProxy = A130865A1FB010C0009D228E /* PBXContainerItemProxy */;
+		};
+		A13086661FB010C0009D228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A130863D1FB010C0009D228E /* LigaPacifico */;
+			targetProxy = A13086651FB010C0009D228E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A130864A1FB010C0009D228E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A130864B1FB010C0009D228E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A130864F1FB010C0009D228E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13086501FB010C0009D228E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A130866B1FB010C0009D228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A130866C1FB010C0009D228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A130866E1FB010C0009D228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE6A912B15736593E87253F /* Pods-LigaPacifico.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LigaPacifico/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silver.LigaPacifico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A130866F1FB010C0009D228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368FE4AA9DC67F32FD3360ED /* Pods-LigaPacifico.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LigaPacifico/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silver.LigaPacifico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A13086711FB010C0009D228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L9G44D97;
+				INFOPLIST_FILE = LigaPacificoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silver.LigaPacificoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LigaPacifico.app/LigaPacifico";
+			};
+			name = Debug;
+		};
+		A13086721FB010C0009D228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L9G44D97;
+				INFOPLIST_FILE = LigaPacificoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silver.LigaPacificoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LigaPacifico.app/LigaPacifico";
+			};
+			name = Release;
+		};
+		A13086741FB010C0009D228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L9G44D97;
+				INFOPLIST_FILE = LigaPacificoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silver.LigaPacificoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LigaPacifico;
+			};
+			name = Debug;
+		};
+		A13086751FB010C0009D228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L9G44D97;
+				INFOPLIST_FILE = LigaPacificoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silver.LigaPacificoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LigaPacifico;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13086391FB010C0009D228E /* Build configuration list for PBXProject "LigaPacifico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A130866B1FB010C0009D228E /* Debug */,
+				A130866C1FB010C0009D228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A130866D1FB010C0009D228E /* Build configuration list for PBXNativeTarget "LigaPacifico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A130866E1FB010C0009D228E /* Debug */,
+				A130866F1FB010C0009D228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13086701FB010C0009D228E /* Build configuration list for PBXNativeTarget "LigaPacificoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13086711FB010C0009D228E /* Debug */,
+				A13086721FB010C0009D228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13086731FB010C0009D228E /* Build configuration list for PBXNativeTarget "LigaPacificoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13086741FB010C0009D228E /* Debug */,
+				A13086751FB010C0009D228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13086361FB010C0009D228E /* Project object */;
+}
